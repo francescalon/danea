@@ -3,7 +3,7 @@ List<GAL> listaGal = new List<GAL>();
     foreach (Utente utente in list_utente) 
     { 
     if(Utente.sesso == "M"){ 
-    if(Utente.eta >= mineta and <= maxeta){
+    if(Utente.eta >= mineta && <= maxeta){
      GAL singoloGal = new GAL(); 
       singoloGal.Nome = Utente.nome; 
       singoloGal.Cognome = Utente.cognome; 
